@@ -36,7 +36,7 @@ const handleGoogleLogin = async () => {
           </Link>
 
           <div className="flex items-center justify-center mb-4">
-            <img src="/logo.png" alt="Logo" className="h-30 sm:h-40 w-auto" />
+            <img src="/logo.png" alt="Logo" className="h-16 sm:h-16 w-60" />
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Start Your $0.49 Trial</h1>
@@ -46,7 +46,7 @@ const handleGoogleLogin = async () => {
         {/* Auth Card */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <Card className="shadow-xl border-0 bg-white/80 backdrop-blur-sm">
-            <CardHeader className="text-center pb-4">
+            <CardHeader className="text-center">
               <CardTitle className="text-lg sm:text-xl font-semibold">Quick & Secure Sign-up</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">

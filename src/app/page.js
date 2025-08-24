@@ -226,7 +226,7 @@ export default function LandingPage() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <img src="/logo.png" alt="Logo" className="h-24 w-auto" />
+              <img src="/logo.png" alt="Logo" className="h-15 w-40" />
             </div>
 
             {/* Desktop Navigation */}
@@ -529,7 +529,7 @@ export default function LandingPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="mb-4"
               >
-                <Card className="border border-gray-200 hover:border-green-200 transition-colors duration-300">
+                <Card className="border border-gray-200 hover:border-green-200 transition-colors duration-300 py-0">
                   <CardContent className="p-0">
                     <button
                       className="w-full p-4 sm:p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300"
@@ -607,7 +607,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center mb-4">
-                <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
+                <img src="/logo.png" alt="Logo" className="h-16 w-42" />
               </div>
               <p className="text-gray-400 mb-4 text-sm sm:text-base">Create beautiful invoices in seconds with AI</p>
               <div className="flex space-x-4">
