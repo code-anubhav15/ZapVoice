@@ -20,7 +20,7 @@ const handleGoogleLogin = async () => {
       options: {
         // This will redirect the user back to your app after login
         // Make sure to set this to your deployed URL in production
-        redirectTo: `https://zapvoiceai.vercel.app/auth/callback`,
+        redirectTo: `${window.location.origin}/auth/callback`,
       },
     });
   };
