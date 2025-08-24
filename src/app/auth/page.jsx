@@ -20,7 +20,7 @@ const handleGoogleLogin = async () => {
       options: {
         // This will redirect the user back to your app after login
         // Make sure to set this to your deployed URL in production
-        redirectTo: `http://localhost:3000/auth/callback`,
+        redirectTo: `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/auth/callback`,
       },
     });
   };
